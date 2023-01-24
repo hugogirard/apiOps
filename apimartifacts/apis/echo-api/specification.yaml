@@ -7,7 +7,7 @@ servers:
 paths:
   /resource:
     get:
-      summary: Retrieve resource
+      summary: Retrieve resource - version 2
       description: A demonstration of a GET call on a sample resource. It is handled by an "echo" backend which returns a response equal to the request (the supplied headers and body are being returned as received).
       operationId: retrieve-resource
       parameters:
