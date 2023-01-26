@@ -2,13 +2,13 @@
   "properties": {
     "apiRevision": "1",
     "authenticationSettings": {},
-    "displayName": "Echo API",
+    "displayName": "StarWars.Api",
     "isCurrent": true,
-    "path": "echo",
+    "path": "sw",
     "protocols": [
       "https"
     ],
-    "serviceUrl": "https://apimopshg.azure-api.net/echo",
+    "serviceUrl": "https://web-starwars-api-dev-dthsylghbqchu.azurewebsites.net/",
     "subscriptionKeyParameterNames": {
       "header": "Ocp-Apim-Subscription-Key",
       "query": "subscription-key"
