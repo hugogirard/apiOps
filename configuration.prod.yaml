@@ -1,1 +1,5 @@
 apimServiceName: apimopshgprod
+apis:
+  - name: starwars-api
+    properties:
+      - serviceUrl: https://web-starwars-api-prod-24skgm6nvfph4.azurewebsites.net
