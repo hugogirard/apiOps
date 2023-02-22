@@ -1,6 +1,6 @@
 apimServiceName: apimopshgprod
 apis:
-  - name: starwars-api
+  - name: web-prod-fibo
     properties:
-      serviceUrl: https://web-starwars-api-prod-24skgm6nvfph4.azurewebsites.net
-      displayName: StarWarsApi-Prod
+      serviceUrl: https://web-prod-fibo.azurewebsites.net
+      displayName: FiboApi-Prod
