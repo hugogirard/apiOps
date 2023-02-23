@@ -9,6 +9,7 @@ paths:
   /:
     get:
       summary: Get Fibonacci sequence
+      description: Get Fibonacci sequence
       operationId: get-fibonacci-sequence
       parameters:
         - name: seq
@@ -18,7 +19,7 @@ paths:
             type: number
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
