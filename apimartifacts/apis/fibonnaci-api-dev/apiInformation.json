@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "displayName": "Fibonnaci API Dev",
+    "isCurrent": true,
+    "path": "fib",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://web-dev-fibo.azurewebsites.net",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}
