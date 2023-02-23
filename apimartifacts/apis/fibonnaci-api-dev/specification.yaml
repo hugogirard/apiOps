@@ -1,0 +1,34 @@
+openapi: 3.0.1
+info:
+  title: Fibonnaci API Dev
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apiops-devhg.azure-api.net/fib
+paths:
+  /:
+    get:
+      summary: Get Fibonacci sequence
+      operationId: get-fibonacci-sequence
+      parameters:
+        - name: seq
+          in: query
+          description: The length of the sequence
+          schema:
+            type: number
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
